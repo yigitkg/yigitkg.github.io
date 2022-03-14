@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  nav{
+    border: 0px solid red;
+  }
+  nav ul {
+    list-style-type: none;
+    border: 0px dotted blue;
+    padding: 0;
+    /* TRBL margin: 0 1rem 1rem 0 */
+    margin: 0;
+  }
+  nav li {
+    border: 3px solid #DBF227;
+    width: 10rem;
+    background-color: red;
+    text-align: center;
+    margin-bottom: 0.8rem;
+
+    /* this makes nav bar horizontal */
+    display: inline-block;
+  }
+  nav a{
+    border: 3px dotted yellow;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+  }
+  nav a:hover {
+    background-color: white;
+    color: red;
+  }
+  article{
+    width: 5;
+    border: 3px solid red;
+    margin: 0 auto;
+  }
