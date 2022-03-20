@@ -7,6 +7,10 @@ body {
       transform: rotateZ(360deg);
     }
 }
+img {
+    max-width: 640px;
+    max-height: 640px;
+}
 
 .spinner {
     font-size: 50px;
